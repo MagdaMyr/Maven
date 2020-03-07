@@ -16,7 +16,7 @@ public class Rectangle extends Figure{
     }
 
     @Override
-    public double calculateCircle() {
-        return (sideA * 2) + (sideB * 2);
+    public double calculateCircuit() {
+        return sideA * 2 + sideB * 2;
     }
 }

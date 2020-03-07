@@ -15,4 +15,14 @@ class RectangleTest {
         //then
         assertThat(result).isEqualTo(10);
     }
+
+    @Test
+    void shouldCalculateCircuit() {
+        //given
+        Figure figure = new Rectangle(2, 5);
+        //when
+        double result = figure.calculateCircuit();
+        //then
+        assertThat(result).isEqualTo(14);
+    }
 }
