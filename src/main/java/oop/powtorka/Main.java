@@ -1,4 +1,4 @@
-package powtorka;
+package oop.powtorka;
 
 public class Main {
 
@@ -16,6 +16,14 @@ public class Main {
         for(Car car : array) {
             System.out.println(car.description());
         }
+
+        Meeting meeting = new Meeting("Spotkanie informacyjne", "NOwogrodzka 56");
+
+        System.out.println(meeting.description());
+
+        meeting.delayMeeting(3);
+
+        System.out.println(meeting.description());
     }
 
 }

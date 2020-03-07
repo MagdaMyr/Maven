@@ -1,4 +1,4 @@
-package powtorka;
+package oop.powtorka;
 
 public class Car {
 
