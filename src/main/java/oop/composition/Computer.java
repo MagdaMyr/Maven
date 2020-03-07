@@ -24,4 +24,13 @@ public class Computer {
     public PowerSuply getPowerSuply() {
         return powerSuply;
     }
+
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "processor=" + processor.getName() +
+                ", graphicCard=" + graphicCard.getName() +
+                ", powerSuply=" + powerSuply.getName() +
+                '}';
+    }
 }
