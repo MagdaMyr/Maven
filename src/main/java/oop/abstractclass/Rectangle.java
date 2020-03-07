@@ -10,13 +10,11 @@ public class Rectangle extends Figure{
         this.sideB = sideB;
     }
 
-    @Override
     public double calculateArea() {
         return sideA * sideB;
     }
 
-    @Override
-    public double calculateCircuit() {
-        return sideA * 2 + sideB * 2;
+    public double calculateCircle() {
+        return (sideA * 2) + (sideB * 2);
     }
 }
