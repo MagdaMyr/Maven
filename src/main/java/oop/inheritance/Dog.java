@@ -9,4 +9,18 @@ public class Dog extends Animal {
         super(name, age, race);
         this.color = color;
     }
+
+    public String getColor() {
+        return color;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + " color : " + this. color;
+    }
+
+    @Override
+    public void voice() {
+        System.out.println("Hau");
+    }
 }

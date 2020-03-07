@@ -35,4 +35,18 @@ public class Animal {
     public void setRace(String race) {
         this.race = race;
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", race='" + race + '\'' +
+                '}';
+    }
+
+    public void voice() {
+        System.out.println("......");
+    }
+
 }

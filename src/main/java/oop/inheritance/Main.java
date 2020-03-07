@@ -9,6 +9,14 @@ public class Main {
         Dog dog = new Dog("Reksio", 5, "Beagle",
                 "trikolor");
 
+        Animal dog2 = new Dog("Ciapek", 5, "Beagle",
+                "trikolor");
+
+        Animal[] animals = {animal, cat, dog, dog2};
+
+        for(Animal an : animals) {
+           an.voice();
+        }
     }
 
 }
