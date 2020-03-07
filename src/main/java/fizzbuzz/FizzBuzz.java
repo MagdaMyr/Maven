@@ -1,3 +1,5 @@
+package fizzbuzz;
+
 public class FizzBuzz {
 
     //Wydrukuj liczby od 1 do 100.
