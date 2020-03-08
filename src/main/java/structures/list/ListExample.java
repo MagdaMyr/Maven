@@ -7,7 +7,6 @@ import java.util.List;
 public class ListExample {
 
     public static void main(String[] args) {
-
         //deklaracja listy
         List<String> list = new ArrayList<>();
 
