@@ -7,7 +7,7 @@ public class CharCounter {
         int sumX = 0;
         int sumO = 0;
 
-        for(char c : word.toCharArray()) {
+        for (char c : word.toCharArray()) {
             if (c == 'x') {
                 sumX++;
             } else if (c == 'o') {
